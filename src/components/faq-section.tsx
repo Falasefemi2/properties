@@ -1,4 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import bulb from "../assets/blue bulb.jpeg";
 
 export default function FAQSection() {
     const faqs = [
@@ -48,11 +49,13 @@ export default function FAQSection() {
                         </div>
 
                         {/* Image Section */}
-                        <div className="relative aspect-square lg:aspect-auto lg:h-full order-first lg:order-last">
+                        <div className="relative aspect-square lg:aspect-auto lg:h-full order-first lg:order-last bg-[#000000] overflow-hidden">
                             <img
-                                src="https://s3-alpha-sig.figma.com/img/fd2c/0775/46650f6333e69b2e4390f10ec203cafa?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=aK2czQH5F7UsWbKUSSDcZ9WuSDeuZPaAj2f7subYXBHivqVFv4oDQ41rSG~XtIYxk7VSPznaTo7FeWUUTyXnfPKvYbhFHR6tPPVtMqg1evWy77X5IrIxAgjXVopLOmYbvSI5DcjHZrSB5VllJVqXpko5qVbWEwJfhVvxMFv6bANkvfU4UjjtQK6TRTp89u8cLFXn-bKAFXpYDV5wrCrRZHQY-cCzKLnQBSoix1gzh-WFH8w70RnDG6HcMx~xdv~O5q31jVJeAs5Qb4F~GFyHyeuzbnV08V1weac6XbtmfkzVQsm~rFj2OUHYxylEOOCMbyqwhHnWhsIzkwzQzYUomA__"
+                                src
+                                ={bulb}
                                 alt="Blue light bulb illustration"
-                            // className="w-[375px] h-[517px] object-cover"
+                                className="w-full h-full object-cover object-center"
+
                             />
                         </div>
                     </div>
